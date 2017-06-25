@@ -1,0 +1,10 @@
+Dockerfile
+README.md
+
+# rails
+tmp
+log
+coverage
+
+# OSX
+.DS_Store
