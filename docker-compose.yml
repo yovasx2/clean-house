@@ -13,10 +13,10 @@ services:
     depends_on:
       - db
   
-  # front:
-  #   build: casalimpia-front
-  #   image: yovasx2/casalimpia-front
-  #   volumes:
-  #     - ./casalimpia-front:/app
-  #   ports:
-  #     - "3000:3000"
+  front:
+    build: casalimpia-front
+    image: yovasx2/casalimpia-front
+    volumes:
+      - ./casalimpia-front:/app
+    ports:
+      - "4200:4200"
