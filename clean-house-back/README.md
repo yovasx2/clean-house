@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Run a container
 
-Things you may want to cover:
+      $ docker-compose run back
 
 * Ruby version
 
+      ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+
 * System dependencies
 
-* Configuration
+      NodeJS v0.10.29
 
 * Database creation
 
+      $bundle exec rake db:create
+
 * Database initialization
+
+      $bundle exec rake db:seed
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+      $bundle exec rspec
 
 * Deployment instructions
 
-* ...
+      pending
+      
+**Note:** All commands should be executed with docker prefix to run them inside the container
+         
+    $docker-compose run back <desired_command>
+
