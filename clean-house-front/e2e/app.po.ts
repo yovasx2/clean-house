@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class CasalimpiaFrontPage {
+export class CleanHouseFrontPage {
   navigateTo() {
     return browser.get('/');
   }

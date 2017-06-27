@@ -1,10 +1,10 @@
-import { CasalimpiaFrontPage } from './app.po';
+import { CleanHouseFrontPage } from './app.po';
 
-describe('casalimpia-front App', () => {
-  let page: CasalimpiaFrontPage;
+describe('clean-house-front App', () => {
+  let page: CleanHouseFrontPage;
 
   beforeEach(() => {
-    page = new CasalimpiaFrontPage();
+    page = new CleanHouseFrontPage();
   });
 
   it('should display welcome message', () => {

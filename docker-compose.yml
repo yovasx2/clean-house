@@ -4,19 +4,19 @@ services:
     image: postgres
 
   back:
-    build: casalimpia-back
-    image: yovasx2/casalimpia-back
+    build: clean-house-back
+    image: yovasx2/clean-house-back
     volumes:
-      - ./casalimpia-back:/app
+      - ./clean-house-back:/app
     ports:
       - "3000:3000"
     depends_on:
       - db
   
   front:
-    build: casalimpia-front
-    image: yovasx2/casalimpia-front
+    build: clean-house-front
+    image: yovasx2/clean-house-front
     volumes:
-      - ./casalimpia-front:/app
+      - ./clean-house-front:/app
     ports:
       - "4200:4200"
