@@ -1,12 +1,13 @@
 FROM node:6.11.0
 MAINTAINER Giovanni Alberto <delirable@gmail.com>
 
-RUN npm install -g @angular/cli
+RUN npm set progress=false # Speed npm
+RUN npm install --quiet -g @angular/cli
 
 RUN mkdir /app
 WORKDIR /app
 COPY package.json /app
-RUN npm install
+RUN npm install --quiet
 RUN npm cache clean
 COPY . /app
 
