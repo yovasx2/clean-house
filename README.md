@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/yovasx2/clean-house.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house)
 
-
 ## Content
 
 * [Description](#description)
