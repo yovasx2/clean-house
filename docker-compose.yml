@@ -18,5 +18,6 @@ services:
     image: yovasx2/clean-house-front
     volumes:
       - ./clean-house-front:/app
+      - /app/node_modules # node_modules disappear between builds
     ports:
       - "4200:4200"

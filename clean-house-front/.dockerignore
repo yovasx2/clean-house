@@ -2,7 +2,7 @@ Dockerfile
 README.md
 
 # angular
-node_modules/
+node_modules
 
 # OSX
 .DS_Store

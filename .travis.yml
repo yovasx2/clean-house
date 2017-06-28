@@ -1,12 +1,14 @@
 sudo: required
 
-services:
-  - docker
+services: docker
 
 before_install:
   - docker-compose up --build -d
 
-script: docker-compose run back bundle exec rspec
+script: 
+  - docker-compose run back bundle exec rspec
+  - docker-compose run front ng test --watch false
+  - docker-compose run front ng e2e
 
 notifications:
   email: false
