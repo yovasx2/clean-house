@@ -3,12 +3,20 @@ sudo: required
 services: docker
 
 before_install:
+  - docker-compose pull
   - docker-compose up --build -d
 
 script: 
   - docker-compose run back bundle exec rspec
   - docker-compose run front ng test --watch false
   - docker-compose run front ng e2e
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+      docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+      docker push yovasx2/clean-house-back;
+      docker push yovasx2/clean-house-front;
+    fi
 
 notifications:
   email: false
