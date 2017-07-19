@@ -34,9 +34,9 @@ In order to execute this project you need to install:
 
 ## Run project
 
-1. Clone the repo
+1. Clone the repo recursively
 
-       $ git clone https://github.com/yovasx2/clean-house
+       $ git clone --recursive https://github.com/yovasx2/clean-house
 
 2. Move into it
 
