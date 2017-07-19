@@ -1,8 +1,6 @@
 # Clean House
 
-[Back](https://github.com/yovasx2/clean-house-back) => [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-back.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-back)
-
-[Front](https://github.com/yovasx2/clean-house-front) => [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-front.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-front)
+[Back](https://github.com/yovasx2/clean-house-back): [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-back.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-back) - [Front](https://github.com/yovasx2/clean-house-front): [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-front.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-front)
 
 ## Content
 
