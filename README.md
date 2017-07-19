@@ -1,7 +1,8 @@
 # Clean House
 
-[![Build Status](https://www.travis-ci.org/yovasx2/clean-house-back.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-back)
-[![Build Status](https://www.travis-ci.org/yovasx2/clean-house-front.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-front)
+Back: [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-back.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-back)
+
+Front: [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-front.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-front)
 
 ## Content
 
