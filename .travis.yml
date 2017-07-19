@@ -1,0 +1,29 @@
+language: 
+  - ruby
+  - node_js
+
+rvm: 2.4.1
+node_js: "6"
+
+services: postgresql
+
+cache:
+  - apt
+  - bundler
+  directories:
+    - node_modules
+
+addons:
+  chrome: stable 
+
+before_install:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+
+script: 
+  - bundle exec rspec
+  - ng test --watch false
+  - ng e2e
+
+notifications:
+  email: false

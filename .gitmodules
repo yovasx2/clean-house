@@ -1,8 +1,0 @@
-[submodule "clean-house-front"]
-	path = clean-house-front
-	url = git@github.com:yovasx2/clean-house-front
-  ignore = all
-[submodule "clean-house-back"]
-	path = clean-house-back
-	url = git@github.com:yovasx2/clean-house-back
-  ignore = all

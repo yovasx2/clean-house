@@ -1,6 +1,6 @@
 # Clean House
 
-[Back](https://github.com/yovasx2/clean-house-back): [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-back.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-back) - [Front](https://github.com/yovasx2/clean-house-front): [![Build Status](https://www.travis-ci.org/yovasx2/clean-house-front.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house-front)
+[![Build Status](https://travis-ci.org/yovasx2/clean-house.svg?branch=master)](https://travis-ci.org/yovasx2/clean-house)
 
 ## Content
 
@@ -34,9 +34,9 @@ In order to execute this project you need to install:
 
 ## Run project
 
-1. Clone the repo recursively
+1. Clone the repo
 
-       $ git clone --recursive https://github.com/yovasx2/clean-house
+       $ git clone https://github.com/yovasx2/clean-house
 
 2. Move into it
 
