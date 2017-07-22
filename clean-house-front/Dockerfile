@@ -1,6 +1,7 @@
 FROM node:6.11.0
 MAINTAINER Giovanni Alberto <delirable@gmail.com>
 
+RUN npm install -g @angular/cli 
 RUN npm set progress=false # Speed npm
 
 RUN mkdir /app
