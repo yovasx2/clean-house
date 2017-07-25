@@ -7,7 +7,7 @@ RUN apt-get -qq update \
 
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN echo "gem: --no-rdoc --no-ri" > /etc/gemrc
+RUN echo 'gem: --no-document' >> ~/.gemrc
 
 RUN mkdir /app
 WORKDIR /app
