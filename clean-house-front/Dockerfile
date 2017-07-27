@@ -9,7 +9,6 @@ WORKDIR /app
 COPY . /app
 RUN npm install --quiet
 RUN npm cache clean --quiet
-COPY . /app
 
 EXPOSE 4200 9876
 
