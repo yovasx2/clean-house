@@ -2,6 +2,8 @@ version: '2'
 services:
   db:
     image: postgres
+    volumes:
+      - ./clean-house-db:/var/lib/postgresql/data
 
   back:
     build: clean-house-back
